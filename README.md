@@ -10,4 +10,13 @@
  The conversion process in the code is quite complex as the image has to be converted from a JSON file to a JPG.<br>
  
  <b style = color:#808080>//I haven't included my key as I don't want to be charged, because a random person is making images with this piece of software.</b>
+<br>
 <a href = "https://platform.openai.com/overview">Where to get a Key.</a>
+<br>
+<br>
+<p>If you'd like to know more about the project or want to contact me for a job, please send me a message at my email below</p><br>
+<a href = "mailto:patrickmadon130@gmail.com?"></a>
+<br>
+<br>
+<h4>Screenshots:</h4><br>
+
