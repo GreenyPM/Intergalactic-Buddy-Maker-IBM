@@ -5,5 +5,6 @@
  The project proved too narrow of a vision for me to include in the Comic-Con, so I went back to the drawing board and came up with this idea.
 
  This at its base is a GUI prompt-entry application utilizing the ChatGPT Dall-E API. 
- The conversion process in the code is quite complex as the image has to be converted from a JSON file to a JPG.
- //I haven't included my key as I don't want to be charged by random people making images.
+ The conversion process in the code is quite complex as the image has to be converted from a JSON file to a JPG.<br>
+ 
+ <div style = color:#808080>//I haven't included my key as I don't want to be charged by random people making images.</div>
