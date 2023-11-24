@@ -35,8 +35,8 @@ class mainEngine:
         startButton = Button(self.root, text="Begin!", font=('MoolBoran', 30), height=2, width=30, bg='#A4C2A8', fg='#2A2B2E', command=lambda: genderSelect())
         startButton.place(x=300, y=600)
 
-        Gallbutton = Button(self.root, text="Gallery", font=('MoolBoran', 30), height=2, width=15, bg='#A4C2A8', fg='#2A2B2E', command=lambda: exit())
-        Gallbutton.place(x=475, y=750)
+        #Gallbutton = Button(self.root, text="Gallery", font=('MoolBoran', 30), height=2, width=15, bg='#A4C2A8', fg='#2A2B2E', command=lambda: exit())
+        #Gallbutton.place(x=475, y=750)
 
         #Items for genderSelect
         subtitle1 = Label(self.root, text='Choose One:', font=('MoolBoran', 100), bg='#5A5A66', fg='#ACEB98')
@@ -86,7 +86,7 @@ class mainEngine:
             title.place(x=100000, y=100000)
             subTitle.place(x=100000, y =100000)
             startButton.place(x=100000, y=100000)
-            Gallbutton.place(x=100000, y=100000)
+            #Gallbutton.place(x=100000, y=100000)
             subtitle1.place(x=230, y=30)
             aButton.place(x=305, y=200)
             sButton.place(x=305, y=400)
