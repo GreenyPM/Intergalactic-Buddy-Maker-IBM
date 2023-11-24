@@ -9,4 +9,5 @@
  <b>This at its base is a GUI prompt-entry application utilizing the ChatGPT Dall-E API. </b><br>
  The conversion process in the code is quite complex as the image has to be converted from a JSON file to a JPG.<br>
  
- <b style = color:#808080>//I haven't included my key as I don't want to be charged by random people making images.</b>
+ <b style = color:#808080>//I haven't included my key as I don't want to be charged, because a random person is making images with this piece of software.</b>
+<a href = "https://platform.openai.com/overview">Where to get a Key.</a>
