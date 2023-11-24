@@ -13,7 +13,7 @@
 <br>
 <a href = "https://platform.openai.com/overview">Where to get a Key.</a>
 <br>
-<br>
+
 <p>If you'd like to know more about the project or want to contact me for a job, please send me a message at my email below</p><br>
 <a href = "mailto:patrickmadon130@gmail.com?"></a>
 <br>
