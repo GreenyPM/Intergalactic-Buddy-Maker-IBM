@@ -13,11 +13,11 @@
 <br>
 <a href = "https://platform.openai.com/overview">Where to get a Key.</a>
 <br>
-
-<p>If you'd like to know more about the project or want to contact me for a job, please send me a message at my email below</p><br>
+<br>
+<h4>If you'd like to know more about the project or want to contact me for a job, please send me a message at my email below</h4><br>
 <a href = "mailto:patrickmadon130@gmail.com">patrickmadon130@gmail.com</a>
 <br>
 <br>
-<h4>Screenshots:</h4><br>
+<h3>Screenshots:</h3><br>
 
 
