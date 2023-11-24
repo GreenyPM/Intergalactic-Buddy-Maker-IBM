@@ -15,7 +15,7 @@
 <br>
 
 <p>If you'd like to know more about the project or want to contact me for a job, please send me a message at my email below</p><br>
-<a href = "mailto:patrickmadon130@gmail.com?"></a>
+<div href = "mailto:patrickmadon130@gmail.com?"></div>
 <br>
 <br>
 <h4>Screenshots:</h4><br>
