@@ -1,6 +1,6 @@
 import os
 import keyboard
-import openai
+from openai import OpenAI
 import cv2
 import base64
 
@@ -11,6 +11,7 @@ class animeAI:
     self.thing1 = "With red armor"
     self.thing2 = "has green skin"
     self.counter = 0
+    self.client = OpenAI(api_key = "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")
 
   def typeEntry(self, a):
     self.add1 = a
@@ -33,18 +34,22 @@ class animeAI:
 
   def generate(self):
   #Keep this Hidden
-    __payKey = openai.api_key = ##This is where you would put your API key. You can get one from https://platform.openai.com/overview
-  #_dont mess with it
+    #__payKey =self.client.api_key = "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"
 
-  #The idea is to have the prompt, created by making it a list and stuff to it as we go
-    response = openai.Image.create(
+  #_dont mess with it
+  #LIMIT FOR DAY OF IS 100-200 HVE COUNTER CODED!!!
+
+  #The idea is to have the promt be created by making it a list and stuff to it as we go
+    response = self.client.images.generate(
       prompt=self.finalPrompt,
       n=1,
       size="512x512",
       response_format="b64_json"
     )
-
-    image_b64 = response['data'][0]['b64_json']
+    #This is happening for a reason, fix it... The new update from the 6th of November really fucked us up
+    #Link: https://github.com/openai/openai-python/discussions/742
+    #image_b64 = response['data'][0]['b64_json']
+    image_b64 = response.data[0].b64_json
     imgUncode = base64.b64decode(image_b64)
     self.counter += 1
     fh = open("Images\\img{}.png".format(self.counter), "wb")
@@ -52,3 +57,7 @@ class animeAI:
     fh.close()
     return 0
 
+
+
+
+#cv2.imwrite("V:\\Python Personal\\GOW2\\testImg\\text.png", imagefinal)
