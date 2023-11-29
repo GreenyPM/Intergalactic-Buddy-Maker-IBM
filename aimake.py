@@ -11,11 +11,7 @@ class animeAI:
     self.thing1 = "With red armor"
     self.thing2 = "has green skin"
     self.counter = 0
-<<<<<<< Updated upstream
-    self.client = OpenAI(api_key = "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")
-=======
     self.client = OpenAI(api_key = "API-KEY-HERE")
->>>>>>> Stashed changes
 
   def typeEntry(self, a):
     self.add1 = a
