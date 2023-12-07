@@ -11,11 +11,7 @@ class animeAI:
     self.thing1 = "With red armor"
     self.thing2 = "has green skin"
     self.counter = 0
-<<<<<<< Updated upstream
-    self.client = OpenAI(api_key = "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")
-=======
-    self.client = OpenAI(api_key = "API-KEY-HERE")
->>>>>>> Stashed changes
+    self.client = OpenAI(api_key = "Key-Here")
 
   def typeEntry(self, a):
     self.add1 = a
@@ -58,6 +54,8 @@ class animeAI:
     self.counter += 1
     fh = open("Images\\img{}.png".format(self.counter), "wb")
     fh.write(imgUncode)
+    print(self.finalPrompt)
+    self.finalPrompt = " " # This solves the Bug where, the prompt just keeps adding to itself.
     fh.close()
     return 0
 
