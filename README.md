@@ -20,4 +20,9 @@
 <br>
 <h3>Screenshots:</h3><br>
 
+![IDM1](https://github.com/GreenyPM/Intergalactic-Buddy-Maker-IBM/assets/81530437/65b46d49-c99e-4bd2-8170-ea3fda33d0c3)
+![IBM2](https://github.com/GreenyPM/Intergalactic-Buddy-Maker-IBM/assets/81530437/17b923f6-c0e0-47ff-8a6f-f90728ece007)
+![IBM3](https://github.com/GreenyPM/Intergalactic-Buddy-Maker-IBM/assets/81530437/21cd86ca-3b30-4d50-81e2-b435d0815097)
+![IBM4](https://github.com/GreenyPM/Intergalactic-Buddy-Maker-IBM/assets/81530437/de2cb749-ece5-4ea7-8e94-697dc107a2cc)
+![IBM5](https://github.com/GreenyPM/Intergalactic-Buddy-Maker-IBM/assets/81530437/8928eef6-abfc-444c-b25b-2fc9e97a6f4a)
 
